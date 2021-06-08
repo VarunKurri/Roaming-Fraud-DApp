@@ -1,0 +1,50 @@
+/* Styles go here */
+#space {
+  padding-top: 30px;
+}
+
+img {
+  width: 700px;
+  height: 300px;
+}
+
+#demo-file::file-selector-button {
+  border: 2px solid #555555;
+  color: #555555;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+#demo-file::file-selector-button:hover {
+  background-color: #e9e9e9;
+}
+
+#demo-file::-webkit-file-upload-button {
+  border: 2px solid #555555;
+  color: #555555;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+#demo-file::-webkit-file-upload-button:hover {
+  background-color: #e9e9e9;
+}
+
+#button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#fetch {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+#spacing {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
